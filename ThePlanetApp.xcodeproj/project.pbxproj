@@ -8,24 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		0669A52026370A7200F47E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A51F26370A7200F47E01 /* AppDelegate.swift */; };
-		0669A52226370A7200F47E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A52126370A7200F47E01 /* SceneDelegate.swift */; };
-		0669A52426370A7200F47E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A52326370A7200F47E01 /* ViewController.swift */; };
 		0669A52726370A7200F47E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0669A52526370A7200F47E01 /* Main.storyboard */; };
 		0669A52926370A7500F47E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0669A52826370A7500F47E01 /* Assets.xcassets */; };
 		0669A52C26370A7500F47E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0669A52A26370A7500F47E01 /* LaunchScreen.storyboard */; };
 		0669A53726370A7500F47E01 /* ThePlanetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A53626370A7500F47E01 /* ThePlanetAppTests.swift */; };
-		0669A54226370A7500F47E01 /* ThePlanetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A54126370A7500F47E01 /* ThePlanetAppUITests.swift */; };
+		0669A55C26370AC000F47E01 /* PlanetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A55B26370AC000F47E01 /* PlanetListViewController.swift */; };
+		0669A56526370B2D00F47E01 /* PlanetListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A56426370B2D00F47E01 /* PlanetListTableViewCell.swift */; };
+		0669A56C26370B5C00F47E01 /* PlanetListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0669A56B26370B5C00F47E01 /* PlanetListTableViewCell.xib */; };
+		0669A57326370BA400F47E01 /* CacheURLResponse+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A57226370BA400F47E01 /* CacheURLResponse+Decodable.swift */; };
+		0669A57726370BB600F47E01 /* KeyedDecodingContainer+URLDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A57626370BB600F47E01 /* KeyedDecodingContainer+URLDecoding.swift */; };
+		0669A57B26370BCC00F47E01 /* UIStoryboard+StoryboardAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A57A26370BCC00F47E01 /* UIStoryboard+StoryboardAdditions.swift */; };
+		0669A57F26370BE200F47E01 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A57E26370BE200F47E01 /* UITableViewCell+ReuseIdentifier.swift */; };
+		0669A58326370BF300F47E01 /* URLRequest+RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A58226370BF300F47E01 /* URLRequest+RequestMethod.swift */; };
+		0669A58826370C2600F47E01 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A58726370C2600F47E01 /* APIEndpoint.swift */; };
+		0669A58E26370C3D00F47E01 /* APIHTTPDecodableResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A58D26370C3D00F47E01 /* APIHTTPDecodableResponse.swift */; };
+		0669A59226370C6700F47E01 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A59126370C6700F47E01 /* APIService.swift */; };
+		0669A59826370C7A00F47E01 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A59726370C7A00F47E01 /* APIServiceError.swift */; };
+		0669A59C26370C8A00F47E01 /* PlanetListRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A59B26370C8A00F47E01 /* PlanetListRepositoryInterface.swift */; };
+		0669A5A026370C9E00F47E01 /* DiskURLCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A59F26370C9E00F47E01 /* DiskURLCache.swift */; };
+		0669A5A426370CBD00F47E01 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5A326370CBD00F47E01 /* Request.swift */; };
+		0669A5A826370CCD00F47E01 /* RequestJSONEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5A726370CCD00F47E01 /* RequestJSONEncoding.swift */; };
+		0669A5AC26370CDD00F47E01 /* RequestURLCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5AB26370CDD00F47E01 /* RequestURLCache.swift */; };
+		0669A5B026370CEF00F47E01 /* RequestURLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5AF26370CEF00F47E01 /* RequestURLEncoding.swift */; };
+		0669A5B526370D2600F47E01 /* PlanetListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5B426370D2600F47E01 /* PlanetListResponse.swift */; };
+		0669A5BC26370D4E00F47E01 /* APIServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5BB26370D4E00F47E01 /* APIServiceInterface.swift */; };
+		0669A5C226370D6000F47E01 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5C126370D6000F47E01 /* Requestable.swift */; };
+		0669A5C626370D7300F47E01 /* RequestEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5C526370D7300F47E01 /* RequestEncoding.swift */; };
+		0669A5CA26370D8400F47E01 /* SessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5C926370D8400F47E01 /* SessionContext.swift */; };
+		0669A5CE26370D9B00F47E01 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5CD26370D9B00F47E01 /* StoryboardInstantiable.swift */; };
+		0669A5D226370DB100F47E01 /* URLCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5D126370DB100F47E01 /* URLCacheable.swift */; };
+		0669A5D626370DC300F47E01 /* URLFormable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5D526370DC300F47E01 /* URLFormable.swift */; };
+		0669A5DB26370DEC00F47E01 /* PlanetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5DA26370DEC00F47E01 /* PlanetListViewModel.swift */; };
+		0669A5DF26370E0100F47E01 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5DE26370E0100F47E01 /* PlanetViewModel.swift */; };
+		0669A5E326370E1B00F47E01 /* PlanetListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669A5E226370E1B00F47E01 /* PlanetListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0669A53326370A7500F47E01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0669A51426370A7200F47E01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0669A51B26370A7200F47E01;
-			remoteInfo = ThePlanetApp;
-		};
-		0669A53E26370A7500F47E01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0669A51426370A7200F47E01 /* Project object */;
 			proxyType = 1;
@@ -37,8 +56,6 @@
 /* Begin PBXFileReference section */
 		0669A51C26370A7200F47E01 /* ThePlanetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThePlanetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0669A51F26370A7200F47E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0669A52126370A7200F47E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0669A52326370A7200F47E01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0669A52626370A7200F47E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0669A52826370A7500F47E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0669A52B26370A7500F47E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,9 +63,35 @@
 		0669A53226370A7500F47E01 /* ThePlanetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThePlanetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0669A53626370A7500F47E01 /* ThePlanetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePlanetAppTests.swift; sourceTree = "<group>"; };
 		0669A53826370A7500F47E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0669A53D26370A7500F47E01 /* ThePlanetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThePlanetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0669A54126370A7500F47E01 /* ThePlanetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePlanetAppUITests.swift; sourceTree = "<group>"; };
-		0669A54326370A7500F47E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0669A55B26370AC000F47E01 /* PlanetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewController.swift; sourceTree = "<group>"; };
+		0669A56426370B2D00F47E01 /* PlanetListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListTableViewCell.swift; sourceTree = "<group>"; };
+		0669A56B26370B5C00F47E01 /* PlanetListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanetListTableViewCell.xib; sourceTree = "<group>"; };
+		0669A57226370BA400F47E01 /* CacheURLResponse+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CacheURLResponse+Decodable.swift"; sourceTree = "<group>"; };
+		0669A57626370BB600F47E01 /* KeyedDecodingContainer+URLDecoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+URLDecoding.swift"; sourceTree = "<group>"; };
+		0669A57A26370BCC00F47E01 /* UIStoryboard+StoryboardAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+StoryboardAdditions.swift"; sourceTree = "<group>"; };
+		0669A57E26370BE200F47E01 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		0669A58226370BF300F47E01 /* URLRequest+RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+RequestMethod.swift"; sourceTree = "<group>"; };
+		0669A58726370C2600F47E01 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		0669A58D26370C3D00F47E01 /* APIHTTPDecodableResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHTTPDecodableResponse.swift; sourceTree = "<group>"; };
+		0669A59126370C6700F47E01 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0669A59726370C7A00F47E01 /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
+		0669A59B26370C8A00F47E01 /* PlanetListRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListRepositoryInterface.swift; sourceTree = "<group>"; };
+		0669A59F26370C9E00F47E01 /* DiskURLCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskURLCache.swift; sourceTree = "<group>"; };
+		0669A5A326370CBD00F47E01 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		0669A5A726370CCD00F47E01 /* RequestJSONEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestJSONEncoding.swift; sourceTree = "<group>"; };
+		0669A5AB26370CDD00F47E01 /* RequestURLCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestURLCache.swift; sourceTree = "<group>"; };
+		0669A5AF26370CEF00F47E01 /* RequestURLEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestURLEncoding.swift; sourceTree = "<group>"; };
+		0669A5B426370D2600F47E01 /* PlanetListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListResponse.swift; sourceTree = "<group>"; };
+		0669A5BB26370D4E00F47E01 /* APIServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceInterface.swift; sourceTree = "<group>"; };
+		0669A5C126370D6000F47E01 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		0669A5C526370D7300F47E01 /* RequestEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestEncoding.swift; sourceTree = "<group>"; };
+		0669A5C926370D8400F47E01 /* SessionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionContext.swift; sourceTree = "<group>"; };
+		0669A5CD26370D9B00F47E01 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		0669A5D126370DB100F47E01 /* URLCacheable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCacheable.swift; sourceTree = "<group>"; };
+		0669A5D526370DC300F47E01 /* URLFormable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFormable.swift; sourceTree = "<group>"; };
+		0669A5DA26370DEC00F47E01 /* PlanetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewModel.swift; sourceTree = "<group>"; };
+		0669A5DE26370E0100F47E01 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		0669A5E226370E1B00F47E01 /* PlanetListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +109,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0669A53A26370A7500F47E01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +117,6 @@
 			children = (
 				0669A51E26370A7200F47E01 /* ThePlanetApp */,
 				0669A53526370A7500F47E01 /* ThePlanetAppTests */,
-				0669A54026370A7500F47E01 /* ThePlanetAppUITests */,
 				0669A51D26370A7200F47E01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +126,6 @@
 			children = (
 				0669A51C26370A7200F47E01 /* ThePlanetApp.app */,
 				0669A53226370A7500F47E01 /* ThePlanetAppTests.xctest */,
-				0669A53D26370A7500F47E01 /* ThePlanetAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,12 +134,17 @@
 			isa = PBXGroup;
 			children = (
 				0669A51F26370A7200F47E01 /* AppDelegate.swift */,
-				0669A52126370A7200F47E01 /* SceneDelegate.swift */,
-				0669A52326370A7200F47E01 /* ViewController.swift */,
+				0669A55B26370AC000F47E01 /* PlanetListViewController.swift */,
 				0669A52526370A7200F47E01 /* Main.storyboard */,
 				0669A52826370A7500F47E01 /* Assets.xcassets */,
 				0669A52A26370A7500F47E01 /* LaunchScreen.storyboard */,
 				0669A52D26370A7500F47E01 /* Info.plist */,
+				0669A56326370B1B00F47E01 /* Cells */,
+				0669A57126370B9400F47E01 /* Extensions */,
+				0669A58626370C1300F47E01 /* Foundation */,
+				0669A5B326370CFF00F47E01 /* Models */,
+				0669A5BA26370D3500F47E01 /* Protocols */,
+				0669A5D926370DD300F47E01 /* View Models */,
 			);
 			path = ThePlanetApp;
 			sourceTree = "<group>";
@@ -114,18 +153,79 @@
 			isa = PBXGroup;
 			children = (
 				0669A53626370A7500F47E01 /* ThePlanetAppTests.swift */,
+				0669A5E226370E1B00F47E01 /* PlanetListViewModelTest.swift */,
 				0669A53826370A7500F47E01 /* Info.plist */,
 			);
 			path = ThePlanetAppTests;
 			sourceTree = "<group>";
 		};
-		0669A54026370A7500F47E01 /* ThePlanetAppUITests */ = {
+		0669A56326370B1B00F47E01 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				0669A54126370A7500F47E01 /* ThePlanetAppUITests.swift */,
-				0669A54326370A7500F47E01 /* Info.plist */,
+				0669A56426370B2D00F47E01 /* PlanetListTableViewCell.swift */,
+				0669A56B26370B5C00F47E01 /* PlanetListTableViewCell.xib */,
 			);
-			path = ThePlanetAppUITests;
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0669A57126370B9400F47E01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0669A57226370BA400F47E01 /* CacheURLResponse+Decodable.swift */,
+				0669A57626370BB600F47E01 /* KeyedDecodingContainer+URLDecoding.swift */,
+				0669A57A26370BCC00F47E01 /* UIStoryboard+StoryboardAdditions.swift */,
+				0669A57E26370BE200F47E01 /* UITableViewCell+ReuseIdentifier.swift */,
+				0669A58226370BF300F47E01 /* URLRequest+RequestMethod.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0669A58626370C1300F47E01 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				0669A58726370C2600F47E01 /* APIEndpoint.swift */,
+				0669A58D26370C3D00F47E01 /* APIHTTPDecodableResponse.swift */,
+				0669A59126370C6700F47E01 /* APIService.swift */,
+				0669A59726370C7A00F47E01 /* APIServiceError.swift */,
+				0669A59B26370C8A00F47E01 /* PlanetListRepositoryInterface.swift */,
+				0669A59F26370C9E00F47E01 /* DiskURLCache.swift */,
+				0669A5A326370CBD00F47E01 /* Request.swift */,
+				0669A5A726370CCD00F47E01 /* RequestJSONEncoding.swift */,
+				0669A5AB26370CDD00F47E01 /* RequestURLCache.swift */,
+				0669A5AF26370CEF00F47E01 /* RequestURLEncoding.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		0669A5B326370CFF00F47E01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0669A5B426370D2600F47E01 /* PlanetListResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0669A5BA26370D3500F47E01 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0669A5BB26370D4E00F47E01 /* APIServiceInterface.swift */,
+				0669A5C126370D6000F47E01 /* Requestable.swift */,
+				0669A5C526370D7300F47E01 /* RequestEncoding.swift */,
+				0669A5C926370D8400F47E01 /* SessionContext.swift */,
+				0669A5CD26370D9B00F47E01 /* StoryboardInstantiable.swift */,
+				0669A5D126370DB100F47E01 /* URLCacheable.swift */,
+				0669A5D526370DC300F47E01 /* URLFormable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0669A5D926370DD300F47E01 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0669A5DA26370DEC00F47E01 /* PlanetListViewModel.swift */,
+				0669A5DE26370E0100F47E01 /* PlanetViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +266,6 @@
 			productReference = 0669A53226370A7500F47E01 /* ThePlanetAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0669A53C26370A7500F47E01 /* ThePlanetAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0669A54C26370A7500F47E01 /* Build configuration list for PBXNativeTarget "ThePlanetAppUITests" */;
-			buildPhases = (
-				0669A53926370A7500F47E01 /* Sources */,
-				0669A53A26370A7500F47E01 /* Frameworks */,
-				0669A53B26370A7500F47E01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0669A53F26370A7500F47E01 /* PBXTargetDependency */,
-			);
-			name = ThePlanetAppUITests;
-			productName = ThePlanetAppUITests;
-			productReference = 0669A53D26370A7500F47E01 /* ThePlanetAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +279,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					0669A53126370A7500F47E01 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 0669A51B26370A7200F47E01;
-					};
-					0669A53C26370A7500F47E01 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 0669A51B26370A7200F47E01;
 					};
@@ -221,7 +299,6 @@
 			targets = (
 				0669A51B26370A7200F47E01 /* ThePlanetApp */,
 				0669A53126370A7500F47E01 /* ThePlanetAppTests */,
-				0669A53C26370A7500F47E01 /* ThePlanetAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,17 +311,11 @@
 				0669A52C26370A7500F47E01 /* LaunchScreen.storyboard in Resources */,
 				0669A52926370A7500F47E01 /* Assets.xcassets in Resources */,
 				0669A52726370A7200F47E01 /* Main.storyboard in Resources */,
+				0669A56C26370B5C00F47E01 /* PlanetListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0669A53026370A7500F47E01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0669A53B26370A7500F47E01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +329,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0669A52426370A7200F47E01 /* ViewController.swift in Sources */,
+				0669A5DF26370E0100F47E01 /* PlanetViewModel.swift in Sources */,
+				0669A5D226370DB100F47E01 /* URLCacheable.swift in Sources */,
+				0669A5B026370CEF00F47E01 /* RequestURLEncoding.swift in Sources */,
+				0669A57726370BB600F47E01 /* KeyedDecodingContainer+URLDecoding.swift in Sources */,
+				0669A59826370C7A00F47E01 /* APIServiceError.swift in Sources */,
+				0669A58826370C2600F47E01 /* APIEndpoint.swift in Sources */,
+				0669A5D626370DC300F47E01 /* URLFormable.swift in Sources */,
+				0669A56526370B2D00F47E01 /* PlanetListTableViewCell.swift in Sources */,
+				0669A5B526370D2600F47E01 /* PlanetListResponse.swift in Sources */,
+				0669A58326370BF300F47E01 /* URLRequest+RequestMethod.swift in Sources */,
+				0669A59226370C6700F47E01 /* APIService.swift in Sources */,
+				0669A5BC26370D4E00F47E01 /* APIServiceInterface.swift in Sources */,
+				0669A55C26370AC000F47E01 /* PlanetListViewController.swift in Sources */,
+				0669A5A426370CBD00F47E01 /* Request.swift in Sources */,
+				0669A57326370BA400F47E01 /* CacheURLResponse+Decodable.swift in Sources */,
+				0669A5AC26370CDD00F47E01 /* RequestURLCache.swift in Sources */,
 				0669A52026370A7200F47E01 /* AppDelegate.swift in Sources */,
-				0669A52226370A7200F47E01 /* SceneDelegate.swift in Sources */,
+				0669A58E26370C3D00F47E01 /* APIHTTPDecodableResponse.swift in Sources */,
+				0669A5C226370D6000F47E01 /* Requestable.swift in Sources */,
+				0669A59C26370C8A00F47E01 /* PlanetListRepositoryInterface.swift in Sources */,
+				0669A57F26370BE200F47E01 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
+				0669A5C626370D7300F47E01 /* RequestEncoding.swift in Sources */,
+				0669A57B26370BCC00F47E01 /* UIStoryboard+StoryboardAdditions.swift in Sources */,
+				0669A5A826370CCD00F47E01 /* RequestJSONEncoding.swift in Sources */,
+				0669A5CA26370D8400F47E01 /* SessionContext.swift in Sources */,
+				0669A5CE26370D9B00F47E01 /* StoryboardInstantiable.swift in Sources */,
+				0669A5DB26370DEC00F47E01 /* PlanetListViewModel.swift in Sources */,
+				0669A5A026370C9E00F47E01 /* DiskURLCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0669A5E326370E1B00F47E01 /* PlanetListViewModelTest.swift in Sources */,
 				0669A53726370A7500F47E01 /* ThePlanetAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0669A53926370A7500F47E01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0669A54226370A7500F47E01 /* ThePlanetAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +376,6 @@
 			isa = PBXTargetDependency;
 			target = 0669A51B26370A7200F47E01 /* ThePlanetApp */;
 			targetProxy = 0669A53326370A7500F47E01 /* PBXContainerItemProxy */;
-		};
-		0669A53F26370A7500F47E01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0669A51B26370A7200F47E01 /* ThePlanetApp */;
-			targetProxy = 0669A53E26370A7500F47E01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,46 +597,6 @@
 			};
 			name = Release;
 		};
-		0669A54D26370A7500F47E01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 564LN62RNQ;
-				INFOPLIST_FILE = ThePlanetAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.planetapp.ThePlanetAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ThePlanetApp;
-			};
-			name = Debug;
-		};
-		0669A54E26370A7500F47E01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 564LN62RNQ;
-				INFOPLIST_FILE = ThePlanetAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.planetapp.ThePlanetAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ThePlanetApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,15 +623,6 @@
 			buildConfigurations = (
 				0669A54A26370A7500F47E01 /* Debug */,
 				0669A54B26370A7500F47E01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0669A54C26370A7500F47E01 /* Build configuration list for PBXNativeTarget "ThePlanetAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0669A54D26370A7500F47E01 /* Debug */,
-				0669A54E26370A7500F47E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
